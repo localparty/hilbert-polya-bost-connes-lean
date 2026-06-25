@@ -1,0 +1,23 @@
+-- HilbertPolyaBostConnes — Lean 4 formalization root module.
+--
+-- Companion to the paper "A Hilbert-Pólya operator scaffold from the
+-- Bost-Connes type III_1 factor, formalized in Lean 4" (G Six,
+-- math.OA / math.NT submission).
+--
+-- Extracted from `integers-mathlib-blueprint/Integers/CCMComplement/` at
+-- commit `baa8fb1` (post-`derive-ccm-cycle-01`). Canonical terminal:
+--   HilbertPolyaBostConnes.rh_of_ccm_galerkin
+--     (g : CCMGalerkinSpectralData) : RiemannHypothesis
+-- — a TRANSPARENT CONDITIONAL on the named Galerkin spectral-data gate
+-- (gate inhabitance is RH-equivalent). NOT an unconditional RH closure.
+--
+-- Lake-dep on `tt-bost-connes-lean` v0.2 supplies the Tomita-Takesaki /
+-- Bost-Connes modular substrate (TomitaTakesaki.* namespace). Two
+-- Phase-7 TT bridge scaffold modules (Galerkin, RHWitness) live in this
+-- repo's `TomitaTakesakiSupport/` subdir because they have not yet been
+-- promoted to tt-bost-connes-lean v0.2; both are scaffold-form with
+-- zero named axioms / zero sorries.
+--
+-- Importing Assembly transitively imports the entire chain.
+
+import HilbertPolyaBostConnes.Assembly
