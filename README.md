@@ -128,8 +128,12 @@ The 8 CCM-own axioms and their literature citations:
 | 7 | `dInftyApproximants_finiteRank` | Paper 13 §L4a Galerkin structural | off |
 | 8 | `dInftyApproximants_h1CompactEmbedding` | Rellich 1930 + Kondrachov 1945 | off |
 
-All axiom docstrings carry verbatim statements from the cited source and a
-non-RH-equivalence note.
+Axiom docstrings carry literature citations with a non-RH-equivalence note.
+The on-terminal pair (`rouche_zero_existence`,
+`collectively_compact_resolvent_uniform_bound`) carries verbatim statements
+from the cited sources; off-terminal background-substrate axioms (#1–4, #7,
+#8) carry author/year + topic + non-RH-equivalence framing inherited from
+the source CCM substrate.
 
 ## License
 
