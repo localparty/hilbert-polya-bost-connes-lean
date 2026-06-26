@@ -14,7 +14,7 @@
   "keywords": [
     "Hilbert-Pólya",
     "Bost-Connes algebra",
-    "type III₁ factor",
+    "type III_1 factor",
     "Riemann Hypothesis",
     "conditional reduction",
     "Galerkin spectral data",
@@ -32,7 +32,7 @@
   ],
   "subjects": [
     {
-      "term": "11M26 (Nonreal zeros of ζ(s) and L(s, χ); Riemann and other hypotheses)",
+      "term": "11M26 (Nonreal zeros of zeta and L-functions; Riemann and other hypotheses)",
       "scheme": "msc-2020"
     },
     {
@@ -52,12 +52,5 @@
       "scheme": "msc-2020"
     }
   ],
-  "language": "eng",
-  "related_identifiers": [
-    {
-      "relation": "hasPart",
-      "identifier": "10.5281/zenodo.20674891",
-      "scheme": "doi"
-    }
-  ]
+  "language": "eng"
 }
