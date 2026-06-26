@@ -1,8 +1,8 @@
 # hilbert-polya-bost-connes Lean 4 formalization
 
 <!-- DOI badges are placeholders until Phase E Zenodo mint. -->
-<!-- [![DOI](https://zenodo.org/badge/DOI/PENDING_LEAN_DOI.svg)](https://doi.org/PENDING_LEAN_DOI) -->
-<!-- [![Companion paper DOI](https://img.shields.io/badge/Paper-PENDING__PAPER__DOI-blue)](https://doi.org/PENDING_PAPER_DOI) -->
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20916336.svg)](https://doi.org/10.5281/zenodo.20916336) -->
+<!-- [![Companion paper DOI](https://img.shields.io/badge/Paper-10.5281%2Fzenodo.20916427-blue)](https://doi.org/10.5281/zenodo.20916427) -->
 
 Companion repository to the paper:
 
