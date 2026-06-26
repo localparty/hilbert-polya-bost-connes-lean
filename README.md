@@ -51,7 +51,7 @@ lake build HilbertPolyaBostConnes        # full chain through SpectralGate.rh_of
 
 Toolchain: Lean 4 v4.29.1. Mathlib pinned at
 `5e932f97dd25535344f80f9dd8da3aab83df0fe6`. Lake-dep on
-`tt-bost-connes-lean` v0.2 (commit
+[`tt-bost-connes-lean`](https://github.com/localparty/tt-bost-connes-lean) v0.2 (commit
 `d4bb8949e37f5e4b9769331294e8fb6e07b6de87`) for the Tomita-Takesaki / Bost-
 Connes modular substrate.
 
@@ -77,7 +77,7 @@ Connes modular substrate.
 | `Assembly.lean` | Chain composition + §7 verification-gates documentation |
 | `BCTypeIII1.lean`, `ModularFlowErgodicity.lean`, `HilbertPolyaOperator.lean`, `SpectrumMatching.lean`, `TomitaTakesaki.lean` | Background substrate (off-terminal) |
 | `RHInfrastructure/RHWitnessFactory.lean` | Project-local merged-gate RH bridge (`riemann_hypothesis_of_hilbert_polya`) consumed by `SpectralGate.rh_of_ccm_galerkin` |
-| `TomitaTakesakiSupport/{Galerkin, RHWitness}.lean` | TT bridge scaffold modules included in this repo because they are not yet promoted to `tt-bost-connes-lean` v0.2 (Phase-7 substrate; SCAFFOLD-form per their source docstrings; zero named axioms / zero sorries) |
+| `TomitaTakesakiSupport/{Galerkin, RHWitness}.lean` | TT bridge scaffold modules included in this repo because they are not yet promoted to [`tt-bost-connes-lean`](https://github.com/localparty/tt-bost-connes-lean) v0.2 (Phase-7 substrate; SCAFFOLD-form per their source docstrings; zero named axioms / zero sorries) |
 
 Cross-references to the companion paper's sections will be added at the
 preprint's v0.1 alignment (Phase C).
