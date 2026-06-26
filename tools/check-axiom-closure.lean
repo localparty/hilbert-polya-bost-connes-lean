@@ -1,0 +1,3 @@
+import HilbertPolyaBostConnes.SpectralGate
+
+#print axioms HilbertPolyaBostConnes.rh_of_ccm_galerkin

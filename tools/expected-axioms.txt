@@ -1,0 +1,5 @@
+'HilbertPolyaBostConnes.rh_of_ccm_galerkin' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ HilbertPolyaBostConnes.Lemmas.BoegliExactness.Helpers.collectively_compact_resolvent_uniform_bound,
+ HilbertPolyaBostConnes.Lemmas.HurwitzZeros.Helpers.rouche_zero_existence]
