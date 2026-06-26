@@ -10,7 +10,7 @@
   ],
   "upload_type": "software",
   "license": "CC-BY-4.0",
-  "version": "v0.2",
+  "version": "v0.3",
   "keywords": [
     "Hilbert-Pólya",
     "Bost-Connes algebra",
@@ -55,8 +55,8 @@
   "language": "eng",
   "related_identifiers": [
     {
-      "relation": "isSupplementTo",
-      "identifier": "10.5281/zenodo.20920816",
+      "relation": "isNewVersionOf",
+      "identifier": "10.5281/zenodo.20920735",
       "scheme": "doi"
     },
     {
