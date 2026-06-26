@@ -1,8 +1,8 @@
 # The Bost-Connes Modular Generator as a candidate Hilbert-Pólya Operator, Lean 4 Formalization
 
 <!-- DOI badges are placeholders until Phase E Zenodo mint. -->
-<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20920735.svg)](https://doi.org/10.5281/zenodo.20920735) -->
-<!-- [![Companion paper DOI](https://img.shields.io/badge/Paper-10.5281%2Fzenodo.20920816-blue)](https://doi.org/10.5281/zenodo.20920816) -->
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20925651.svg)](https://doi.org/10.5281/zenodo.20925651) -->
+<!-- [![Companion paper DOI](https://img.shields.io/badge/Paper-10.5281%2Fzenodo.20925877-blue)](https://doi.org/10.5281/zenodo.20925877) -->
 
 Companion repository to the paper:
 
