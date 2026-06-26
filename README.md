@@ -1,4 +1,4 @@
-# hilbert-polya-bost-connes Lean 4 formalization
+# The Bost-Connes Modular Generator as a candidate Hilbert-Pólya Operator, Lean 4 Formalization
 
 <!-- DOI badges are placeholders until Phase E Zenodo mint. -->
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20920735.svg)](https://doi.org/10.5281/zenodo.20920735) -->
