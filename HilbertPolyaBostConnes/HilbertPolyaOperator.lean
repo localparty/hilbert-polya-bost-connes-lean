@@ -1,7 +1,4 @@
 /-
-Cell: ccm-complement/native/link.4.hilbert-polya-operator-D (Link 4 CENTRAL; PROVED via TT)
-Atlas: strategy/pillar-d/mathlib/universal-approval/ccm-complement/ccm-complement-mathlib-components.md
-Blueprint: \label{thm:ccm-complement-native:link.4.hilbert-polya-operator-D}
 Closeability: TT-CHAIN-DISCHARGED — proof composes TT L7 (D_∞ = log Δ₁)
   + TTBridge.dInftyCLM (bridged to Mathlib ContinuousLinearMap)
   + dInftyApproximantsFromTT (Galerkin approximants from BC truncations)

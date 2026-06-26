@@ -175,7 +175,7 @@ theorem boegli_spectral_exactness
     (show BoegliExactness.Helpers.CollectivelyCompactFamily D_N from h_cc)
     h_spec h_lim
 
-/-! ## derive-ccm-cycle-01: the zero-operator-tied discharges are REMOVED
+/-! ## The zero-operator-tied discharges are REMOVED
 
 The previous version closed this file with three theorems that asserted/derived the
 spectral encoding **over the scaffold operators** `dInftyApproximantsFromTT (= 0)` and
@@ -191,7 +191,7 @@ All three are GONE (they bottomed out on the zero-operator masquerade + the unde
 `xiTruncated*` axioms, both now removed). What survives is the **generic, genuine**
 `boegli_spectral_exactness` above (Anselone–Stummel + Neumann perturbation), which is
 applied to *abstract* gate data — not the zero operator — in
-`Integers/CCMComplement/SpectralGate.lean`, where the honest spectral encoding is
+`HilbertPolyaBostConnes/SpectralGate.lean`, where the honest spectral encoding is
 DERIVED from the named `CCMGalerkinSpectralData` gate. -/
 
 end HilbertPolyaBostConnes.Lemmas

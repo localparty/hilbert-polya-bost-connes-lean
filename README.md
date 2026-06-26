@@ -6,17 +6,16 @@
 
 Companion repository to the paper:
 
-> **A Hilbert-Pólya operator scaffold from the Bost-Connes type III_1 factor,
+> **The Bost-Connes Modular Generator as a candidate Hilbert-Pólya Operator,
 > formalized in Lean 4**
-> *G Six*. math.OA / math.NT submission, 2026.
+> *G Six*, 2026.
 
-This repository contains the Lean 4 formalization of the CCM-complement chain,
-extracted from `integers-mathlib-blueprint` Integers/CCMComplement at commit
-`baa8fb1` (zero `sorry` count; 8 named CCM-own programme-level axioms plus 6
-TT-upstream-inherited axioms via lake-dep on
+This repository contains the Lean 4 formalization of the construction. Zero
+`sorry` count; 8 named programme-level axioms plus 6 TT-upstream-inherited
+axioms via lake-dep on
 [`tt-bost-connes-lean`](https://github.com/localparty/tt-bost-connes-lean) v0.2;
 canonical terminal is a transparent conditional reduction over
-`CCMGalerkinSpectralData`).
+`CCMGalerkinSpectralData`.
 
 ## Honest framing
 
@@ -39,7 +38,7 @@ Hurwitz (Hurwitz 1893, reduced to Rouché 1862 atomic) machinery on abstract
 `CCMGalerkinSpectralData`.
 
 **This is NOT an unconditional closure of the Riemann Hypothesis.** It is a
-structural reduction + operator-algebraic scaffold + transparent conditional
+structural reduction + operator-algebraic construction + transparent conditional
 terminal.
 
 ## Build
@@ -71,7 +70,7 @@ Connes modular substrate.
 | `Lemmas/RellichKondrachov.lean` | Rellich-Kondrachov H¹↪L² discrete compactness scaffolding |
 | `Lemmas/RellichKondrachov/Helpers/{CompactEmbedding, GalerkinFiniteRank, UniformBound}.lean` | RK helpers |
 | `Lemmas/SubIssueWitnesses.lean` | Sub-issue witnesses |
-| `Construction.lean` | `ccm_complement_construction_of_gate (g)` — existential bundle of Galerkin spectral data + self-adjointness |
+| `Construction.lean` | `construction_of_gate (g)` — existential bundle of Galerkin spectral data + self-adjointness |
 | `PassageToLimit.lean` | `spec_D_infty_eq_riemann_zeros_exact_of_gate (g)` |
 | `SpectralGate.lean` | `CCMGalerkinSpectralData` named-gate type + canonical terminal `rh_of_ccm_galerkin (g) : RiemannHypothesis` |
 | `RHFollows.lean` | `rh_via_self_adjointness_of_gate (g)` — Link-7 spectral argument (preserved alongside the merged-gate route in SpectralGate) |
@@ -139,17 +138,6 @@ the source CCM substrate.
 
 CC-BY-4.0. See `LICENSE`.
 
-## Provenance
+## AI collaboration disclosure
 
-Extracted from `integers-mathlib-blueprint/Integers/CCMComplement/` at commit
-`baa8fb1` (2026-06-16, post-`derive-ccm-cycle-01` Option-1 DERIVE refactor).
-Cross-dir bridges into `Integers/RH/Infrastructure/RHWitnessFactory.lean`
-(included locally as `RHInfrastructure/RHWitnessFactory.lean`) and
-`Integers/TomitaTakesaki/{Galerkin, RHWitness}.lean` (included locally as
-`TomitaTakesakiSupport/{Galerkin, RHWitness}.lean` because not yet promoted to
-`tt-bost-connes-lean` v0.2 — these are SCAFFOLD-form Phase-7 substrate, zero
-named axioms, zero sorries).
-
-During the preparation of this work, the author used Claude Opus 4.7. The
-author reviewed all content and takes full responsibility for the
-formalization.
+During the preparation of this work, the author used Claude Opus 4.7.

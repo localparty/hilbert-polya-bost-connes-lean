@@ -16,7 +16,7 @@ prime-ideal sectors of the Bost-Connes Hecke basis).
 ## Why an axiom
 
 `dInftyApproximantsFromTT` is itself an opaque axiom in
-`Integers/CCMComplement/Infrastructure.lean` — only the *type*
+`HilbertPolyaBostConnes/Infrastructure.lean` — only the *type*
 (`ℕ → (H →L[ℂ] H)`) and the *strong-convergence behaviour*
 (`dInftyApproximants_strongConv`) are exposed. The internal Galerkin
 construction

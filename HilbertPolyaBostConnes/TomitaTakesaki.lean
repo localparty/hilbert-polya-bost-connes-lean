@@ -1,7 +1,4 @@
 /-
-Cell: ccm-complement/native/link.2.tomita-takesaki-canonical-modular-data (Link 2; PROVED via TT)
-Atlas: strategy/pillar-d/mathlib/universal-approval/ccm-complement/ccm-complement-mathlib-components.md
-Blueprint: \label{thm:ccm-complement-native:link.2.tomita-takesaki-canonical-modular-data}
 Closeability: TT-CHAIN-DISCHARGED — proof composes TT L1+L2+L3
   (bc_system_exists + gns_construction + type_iii1_factor + polar_decomposition)
   + TTBridge instances + Infrastructure TT-derived witnesses.

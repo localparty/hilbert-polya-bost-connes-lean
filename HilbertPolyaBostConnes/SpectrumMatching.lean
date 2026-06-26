@@ -1,7 +1,4 @@
 /-
-Cell: ccm-complement/native/link.5.spectrum-matching-itpfi-que-sato-tate (Link 5; PROVED via TT)
-Atlas: strategy/pillar-d/mathlib/universal-approval/ccm-complement/ccm-complement-mathlib-components.md
-Blueprint: \label{thm:ccm-complement-native:link.5.spectrum-matching-itpfi-que-sato-tate}
 Closeability: TT-CHAIN-DISCHARGED — proof composes TTBridge.dInftyCLM
   + dInftyApproximantsFromTT + zetaZerosApproxByApproximants axiom
   (encoding QUE + Sato-Tate + Weil EF identification of approximant spectra
@@ -26,7 +23,7 @@ open Complex TomitaTakesaki
 
 /-- Link 5: Spectral identification — spec(D_N) approximates zeta zeros.
 
-**derive-ccm-cycle-01: now gate-conditional.** The previous version witnessed this existential
+**Now gate-conditional.** The previous version witnessed this existential
 over the scaffold zero operator `TTBridge.dInftyCLM` + the now-removed
 `zetaZerosApproxByApproximants_proved` (which bottomed out on the undefined `xiTruncated`
 axioms over `D_N = 0`). It is rewired to a transparent conditional on the honest

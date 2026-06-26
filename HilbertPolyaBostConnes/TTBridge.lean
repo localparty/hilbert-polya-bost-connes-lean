@@ -10,7 +10,7 @@ with `HilbertSpace := UniformSpace.Completion ℂ`, equipped with Mathlib's
 inherited `NormedAddCommGroup`, `InnerProductSpace ℂ`, and `CompleteSpace`
 instances from `Mathlib.Analysis.InnerProductSpace.Completion`.
 
-The CCM-complement chain requires Mathlib-typed objects to match the
+This formalization requires Mathlib-typed objects to match the
 RH axiom `D_infinity_spectral_encoding`:
   - `(H : Type) [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H]`
   - `(D : H →L[ℂ] H) (_ : IsSelfAdjoint D)`
@@ -227,7 +227,7 @@ backfill, becomes `cfc Real.log deltaModular`. -/
 noncomputable abbrev dInftyModular : gnsHilbertSpace →L[ℂ] gnsHilbertSpace :=
   TomitaTakesaki.TomitaS.modularHamiltonian bcSystem
 
-/-! ## derive-ccm-cycle-01: the assume-encoding axiom + factored fake terminal are REMOVED
+/-! ## The assume-encoding axiom + factored fake terminal are REMOVED
 
 This file previously closed with the **zero-operator + assume-the-encoding masquerade**:
 

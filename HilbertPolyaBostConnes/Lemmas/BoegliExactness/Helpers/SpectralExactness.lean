@@ -2,7 +2,7 @@
 Bögli 2017 Theorem 2.6 no-spectral-pollution — project-local proof.
 
 This file replaces the monolithic axiom `boegli_spectral_exactness`
-(previously declared in `Integers/CCMComplement/Lemmas/BoegliExactness.lean`)
+(previously declared in `HilbertPolyaBostConnes/Lemmas/BoegliExactness.lean`)
 with a proved theorem. The proof depends on
   * Mathlib: `Units.add` (Neumann-series perturbation of a unit; *Heather
     Macbeth* 2020, `Mathlib/Analysis/Normed/Ring/Units.lean`),

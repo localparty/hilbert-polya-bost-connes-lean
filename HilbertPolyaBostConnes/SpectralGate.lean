@@ -1,10 +1,10 @@
 /-
-CCM honest spectral gate — derive-ccm-cycle-01 (Option-1 DERIVE).
+Honest spectral gate (Option-1 DERIVE refactor).
 
 ## What this file is
 
 The honest replacement for the CCM zero-operator + assume-encoding masquerade. It bundles
-the genuinely-OPEN Galerkin-approximation data of the CCM-complement programme as ONE named
+the genuinely-OPEN Galerkin-approximation data of this programme as ONE named
 gate `CCMGalerkinSpectralData`, and **DERIVES** the rotated-zeta spectral encoding from it
 using the genuine, generic, kept machinery:
 
@@ -53,7 +53,7 @@ open Complex Filter
 open HilbertPolyaBostConnes.Lemmas
 
 /-- **The CCM Galerkin spectral gate** — the single honestly-named open hypothesis of the
-CCM-complement chain. It bundles the genuinely-open finite-rank Galerkin-approximation data
+This chain bundles the genuinely-open finite-rank Galerkin-approximation data
 (`D_∞ = log Δ|_{H_R}` and its truncations `D_N = P_N ∘ D_∞ ∘ P_N`, the truncated completed-xi
 `ξ̂_N`, their convergence and the Fredholm spectral identification). **No term of this type is
 currently constructible** — inhabiting it is equivalent to RH (see file header). -/

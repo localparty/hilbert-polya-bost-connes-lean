@@ -1,5 +1,5 @@
 /-
-CCM-complement master construction: compose Links 1-6 into the
+Master construction: compose Links 1-6 into the
 self-adjoint operator D_∞ with spectral encoding of zeta zeros.
 
 This theorem has the SAME type as the RH axiom `D_infinity_spectral_encoding`.
@@ -27,16 +27,16 @@ namespace HilbertPolyaBostConnes
 
 open Complex
 
-/-- The CCM-complement construction: a self-adjoint operator on a Hilbert
+/-- The construction: a self-adjoint operator on a Hilbert
 space whose spectrum encodes the nontrivial zeros of the Riemann zeta
 function via the Hilbert-Pólya rotation s ↦ -i(s - 1/2).
 
-**derive-ccm-cycle-01: now gate-conditional.** The previous version returned the zero-operator
+**Now gate-conditional.** The previous version returned the zero-operator
 witness `PassageToLimit.spec_D_infty_eq_riemann_zeros_exact` (over `dInftyModular = 0` +
 the assume-encoding fake). It is rewired to a transparent conditional on the honest
 `CCMGalerkinSpectralData` gate; the existential is realised by the gate's *abstract*
 self-adjoint operator with the encoding DERIVED via Bögli + Hurwitz (Link 6). -/
-theorem ccm_complement_construction_of_gate (g : CCMGalerkinSpectralData) :
+theorem construction_of_gate (g : CCMGalerkinSpectralData) :
     ∃ (H : Type) (_ : NormedAddCommGroup H) (_ : InnerProductSpace ℂ H)
       (_ : CompleteSpace H) (D : H →L[ℂ] H),
       IsSelfAdjoint D ∧

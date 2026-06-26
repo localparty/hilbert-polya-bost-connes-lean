@@ -1,5 +1,5 @@
 /-
-CCM-complement infrastructure: placeholder types for Tomita-Takesaki imports
+Infrastructure: placeholder types for Tomita-Takesaki imports
 + TT-derived witnesses via TTBridge.
 
 Architecture:
@@ -133,7 +133,7 @@ theorem hasConnesSpectrumRealFromTT :
 
 /-! ## TT-derived approximant/spectral axioms (Links 4-6 content)
 
-These axioms encode the CCM-complement claims about the TT-derived D_∞ that
+These axioms encode the project's claims about the TT-derived D_∞ that
 are NOT provided by the TT chain directly. Each represents a specific Link's
 mathematical content as a typed claim about the BC-derived operator. -/
 

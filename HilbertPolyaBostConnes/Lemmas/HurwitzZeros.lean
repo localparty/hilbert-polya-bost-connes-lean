@@ -1,7 +1,7 @@
 /-
 Project-local Hurwitz 1893 zero-convergence lemma + DERIVED rotated-zeta analytic data.
 
-## derive-ccm-cycle-01 reconstruction (2026-05-29, Option-1 DERIVE mandate)
+## Option-1 DERIVE reconstruction (2026-05-29)
 
 The previous version of this file declared the `xiTruncated*` FAMILY as **undefined
 opaque axioms** — `xiTruncated : ℕ → ℂ → ℂ` and `xiTruncatedLimit : ℂ → ℂ` had **no
@@ -32,7 +32,7 @@ The genuinely-open Galerkin data (the finite-rank `D_N`, the truncated `ξ̂_N`,
 strong/locally-uniform convergence, and the Fredholm spectral identification
 `ξ̂_N(z)=0 ⟹ z ∈ spec D_N`) is NO LONGER a pile of file-level axioms. It is bundled as
 the honest named gate `CCMGalerkinSpectralData` in
-`Integers/CCMComplement/SpectralGate.lean`, where the spectral encoding is DERIVED from
+`HilbertPolyaBostConnes/SpectralGate.lean`, where the spectral encoding is DERIVED from
 the gate via the generic Bögli + Hurwitz machinery together with these DERIVED sub-facts.
 
 Recognized contributions:
@@ -154,7 +154,7 @@ theorem xiTruncatedLimit_ne_zero_on_rotationDomain :
 
 /-! ## DERIVED critical-strip location of nontrivial zeros (the BUILD)
 
-derive-ccm-cycle-01 follow-up (post memo-35 "DERIVE not BLESS"): the rotated-zero
+Option-1 DERIVE follow-up: the rotated-zero
 domain-membership that was carried as the gate field `rotatedZeros_in_domain` is now
 fully DERIVED from Mathlib. The classical fact — nontrivial zeta zeros lie in the open
 critical strip `0 < Re s < 1` — comes from the functional equation `riemannZeta_one_sub`

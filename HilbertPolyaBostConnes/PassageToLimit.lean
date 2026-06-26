@@ -1,7 +1,4 @@
 /-
-Cell: ccm-complement/native/link.6.passage-to-limit-boegli-hurwitz (Link 6; PROVED via TT)
-Atlas: strategy/pillar-d/mathlib/universal-approval/ccm-complement/ccm-complement-mathlib-components.md
-Blueprint: \label{thm:ccm-complement-native:link.6.passage-to-limit-boegli-hurwitz}
 Closeability: TT-CHAIN-DISCHARGED — proof composes TTBridge.dInftyCLM
   + dInftySpectralEncoding axiom (Bögli + Hurwitz: spec(D_∞) ⊇ {-i·(s-1/2)
   : ζ(s) = 0 nontrivial}).
@@ -23,7 +20,7 @@ open Complex TomitaTakesaki HilbertPolyaBostConnes
 
 /-- Link 6: Passage to limit — Bögli + Hurwitz spectral exactness.
 
-**derive-ccm-cycle-01: now gate-conditional.** The previous version witnessed this existential
+**Now gate-conditional.** The previous version witnessed this existential
 over the scaffold zero operator `TTBridge.dInftyModular` + the now-removed
 `dInftySpectralEncoding_proved`. It is rewired to a transparent conditional on the honest
 `CCMGalerkinSpectralData` gate, with the spectral encoding **DERIVED** — this is exactly the

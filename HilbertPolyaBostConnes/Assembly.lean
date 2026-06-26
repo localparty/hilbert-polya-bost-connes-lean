@@ -31,7 +31,7 @@ attestations are:
    in `HilbertPolyaBostConnes/*.lean`.
 2. The named-axiom inventory matches the master plan §6 budget and the
    `axioms-disclosure.md` companion document, both synced 2026-06-24
-   against blueprint HEAD (post-`derive-ccm-cycle-01`):
+   against the construction's HEAD state:
    - 8 CCM-substrate-own atomic axioms (4 Infrastructure BC operator-
      algebraic substrate + 4 Lemmas/Helpers classical literature ports);
    - 6 TT-upstream axioms inherited via the lake-dep on
@@ -63,7 +63,7 @@ attestations are:
 
 ## Module groups
 
-Chain composition reflects the order in `CCM-FINAL-STATUS.md`:
+Chain composition follows the dependency order:
 
 - TT-substrate bridge:
   `TomitaTakesakiSupport/{Galerkin, RHWitness}` (Phase-7 scaffold absorbed

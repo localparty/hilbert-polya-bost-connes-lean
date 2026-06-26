@@ -1,11 +1,9 @@
 -- HilbertPolyaBostConnes — Lean 4 formalization root module.
 --
--- Companion to the paper "A Hilbert-Pólya operator scaffold from the
--- Bost-Connes type III_1 factor, formalized in Lean 4" (G Six,
--- math.OA / math.NT submission).
+-- Companion to the paper "The Bost-Connes Modular Generator as a candidate
+-- Hilbert-Pólya Operator, formalized in Lean 4" (G Six, 2026).
 --
--- Extracted from `integers-mathlib-blueprint/Integers/CCMComplement/` at
--- commit `baa8fb1` (post-`derive-ccm-cycle-01`). Canonical terminal:
+-- Canonical terminal:
 --   HilbertPolyaBostConnes.rh_of_ccm_galerkin
 --     (g : CCMGalerkinSpectralData) : RiemannHypothesis
 -- — a TRANSPARENT CONDITIONAL on the named Galerkin spectral-data gate

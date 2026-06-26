@@ -1,7 +1,4 @@
 /-
-Cell: ccm-complement/native/link.1.bc-algebra-kms-1-type-iii-1-factor (Link 1; PROVED via TT)
-Atlas: strategy/pillar-d/mathlib/universal-approval/ccm-complement/ccm-complement-mathlib-components.md
-Blueprint: \label{thm:ccm-complement-native:link.1.bc-algebra-kms-1-type-iii-1-factor}
 Closeability: TT-CHAIN-DISCHARGED — proof composes TT L1 (bc_system_exists axiom)
   + TT L2 (gns_construction + type_iii1_factor) + TTBridge instances.
   The Link 1 sorry is ELIMINATED; data flows from TT's actual content.
@@ -29,7 +26,7 @@ open Complex TomitaTakesaki
   3. M := `vonNeumannAlgebraFromTT` (the bicommutant M₁ = π_{ω₁}(B_K)'')
   4. `M.IsTypeIII1` := `isTypeIII1FromTT` (Haagerup uniqueness + Araki-Woods)
 
-This is the first CCM-complement Link whose sorry has been DISCHARGED by the
+This is the first Link whose sorry has been DISCHARGED by the
 parallel TT scaffold (commit cf02bb9, cherry-picked into ccm-impl).
 
 Output: Hilbert space H with instances + VonNeumannAlgebra M on H

@@ -2,7 +2,7 @@
 Hurwitz 1893 zero-convergence theorem — project-local proof.
 
 This file replaces the monolithic axiom `hurwitz_zero_convergence` (previously
-declared in `Integers/CCMComplement/Lemmas/HurwitzZeros.lean`) with a proved
+declared in `HilbertPolyaBostConnes/Lemmas/HurwitzZeros.lean`) with a proved
 theorem. The proof depends on
   * Mathlib: identity principle for analytic functions, locally-uniform-limit
     holomorphicity (Beffara 2022), Cauchy-integral-formula corollary

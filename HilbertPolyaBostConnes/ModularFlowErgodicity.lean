@@ -1,7 +1,4 @@
 /-
-Cell: ccm-complement/native/link.3.modular-flow-ergodicity-connes-spectrum (Link 3; PROVED via TT)
-Atlas: strategy/pillar-d/mathlib/universal-approval/ccm-complement/ccm-complement-mathlib-components.md
-Blueprint: \label{thm:ccm-complement-native:link.3.modular-flow-ergodicity-connes-spectrum}
 Closeability: TT-CHAIN-DISCHARGED — proof composes TT L1+L2+L3+L4 chain
   + isModularFlowErgodicFromTT + hasConnesSpectrumRealFromTT axioms.
   The Link 3 sorry is ELIMINATED; flow ergodicity flows from TT L4 BR Vol II.
